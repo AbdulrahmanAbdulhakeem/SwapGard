@@ -3,10 +3,6 @@ import {SolanaAdapter} from "@reown/appkit-adapter-solana/react";
 import { solana, solanaTestnet, solanaDevnet } from '@reown/appkit/networks'
 import {PhantomWalletAdapter,SolflareWalletAdapter} from "@solana/wallet-adapter-wallets";
 
-import { AppKitProvider, AppKitAccountButton } from "@reown/appkit";
-import { solanaConnectors } from "@reown/appkit/chains";
-
-
 export const projectId = import.meta.env.VITE_PROJECT_ID
 
 if (!projectId) {
